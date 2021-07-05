@@ -1,27 +1,19 @@
-# ToastGridTest
+# Toast Grid Test
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
+## 개요
 
-## Development server
+* 현재 사용중인 ToastUI 의 문제점 에 대한 기술 및 개선안 샘플링
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## 환경구성
 
-## Code scaffolding
+* OS : CentOS 7 <br>
+* Node.js : v12.16.1 <br>
+* Angular : v12.1.1<br>
+* Tui-Grid : v4.18.0
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 필요 개선안
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. 대규모 데이터를 받아 표현할 경우 렌더링 속도 개선
+2. Grid 내부 커스텀의 간편하게 재공
+3. Grid 반응형 UI 개선
+4. Grid 옵션으로써 Paging 기능 제공
